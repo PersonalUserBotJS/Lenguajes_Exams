@@ -45,7 +45,7 @@
                                     <form action="{{route('crearContacto')}}" method="POST">
                                         @csrf
                                         <label for="">C&oacute;digo de entrada</label>
-                                        <input type="text" name="codigo" class="form-control" readonly>
+                                        <input type="text" name="codigo" class="form-control">
                                         <label for="">Nombre</label>
                                         <input type="text" name="nombre" class="form-control">
                                         <label for="">Apellido</label>

@@ -32,10 +32,7 @@
         </style>
     </head>
     <body class="antialiased">
-
-
-
-            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
 
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
@@ -58,14 +55,14 @@
                                             <th scope="col">Eliminar</th>
                                         </thead>
                                         <tbody>
-                                            // @foreach ($contactos as $contacto)
+                                            @foreach ($contactos as $contacto)
                                             <tr>
                                                 <td>{{ $contacto->id }}</td>
                                                 <td>{{ $contacto->nombre }}</td>
                                                 <td>{{ $contacto->apellido }}</td>
                                                 <td>{{ $contacto->telefono }}</td>
                                             </tr>
-                                            // @endforeach
+                                            @endforeach
                                         </tbody>
                                     </table>
                                 </p>
